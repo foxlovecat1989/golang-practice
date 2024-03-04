@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func main() {
-	type person struct {
-		firstName string
-		lastName  string
-		age       int
-	}
+type person struct {
+	firstName string
+	lastName  string
+	age       int
+}
 
+func main() {
 	p1 := person{
 		firstName: "ed",
 		lastName:  "huang",
